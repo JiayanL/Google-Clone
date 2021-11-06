@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="styles.css">
+        <!-- Font Awesome-->
+        <script src="https://kit.fontawesome.com/13ed3a7f32.js" crossorigin="anonymous"></script>
     </head>
-
     <body>
-        <div class="header"></div>
-
-        <div>
-            <h1>Google Search</h1>
+        <!-- Header -->
+        <div class="header">
+            <nav>
+                <a href="#">About</a>
+                <a href="#">Store</a>
+                <a href="#">Gmail</a>
+                <a href="#">Image</a>
+                <div>
+                    <i class="fas fa-ellipsis-h"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div>Profile Picture</div>
+            </nav>
         </div>
-
-        <form action="https://google.com/search">
-            <input id="search-bar" type="text" name="q">
-            <input class="search-button" type="submit" value="Google Search">
-            <input class="search-button" type="submit" value="I'm Feeling Lucky">
-        </form>
-
-        <div class="footer"></div>
+        <!-- Search Bar and Surrounding Components -->
+        <div class ="search">
+            <h1>Google Search</h1>
+            <form action="https://google.com/search">
+                <input id="search-bar" type="text" name="q">
+                <input class="search-button" type="submit" value="Google Search">
+                <input class="search-button" type="submit" value="I'm Feeling Lucky">
+            </form>
+            <i class="fas fa-shield-alt"></i>
+            <p>Take your personal privacy check</p>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+            <a href="#">Carbon Neutral Since 2007</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
     </body>
 </html>

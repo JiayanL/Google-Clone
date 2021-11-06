@@ -1,3 +1,9 @@
-.search-button {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+body {
+    font-family: "Times New Roman", sans-serif;
+}
+
+#logo {
+    font-family: "Cantarell", sans-serif;
 }
