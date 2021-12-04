@@ -30,6 +30,14 @@ body {
     text-decoration: underline;
 }
 
+.header img {
+    width: 10em;
+}
+
+#menu-bar:hover {
+    background-color: blue;
+}
+
 #logo {
     font-family: "Cantarell", sans-serif;
 }
