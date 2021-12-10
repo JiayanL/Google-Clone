@@ -26,18 +26,19 @@ body {
     text-decoration: none;
 }
 
-.header a:hover {
-    text-decoration: underline;
+a + a {
+    margin-left: 10px;
 }
 
-.header img {
-    width: 10em;
-}
-
-#menu-bar:hover {
-    background-color: blue;
-}
-
+/* Logo */
 #logo {
     font-family: "Cantarell", sans-serif;
+    text-align: center;
+    margin-top: 20%;
+}
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 10px;
+    margin-left:2em;
 }
